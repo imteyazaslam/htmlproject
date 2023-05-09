@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Contact Me</h2>
+    <p>I'd really like to hear you!</p>
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        <label>Last Name</label> : <input type="text" placeholder="Enter you name" ><br><br>
+        <label>Password</label> : <input type="password" placeholder="your secret" ><br><br>
+        <label>Phone</label> : <input type="number" placeholder="9988776655" ><br><br>
+        <label>Favorite Decade</label> : <input type="number"  min="1" max="9999" placeholder="1988"><br><br>
+        <label>Favorite coffee</label> : <select size="5">
+            
+                <optgroup label="Coffees">
+                  <option value="regular">regular coffee</option>
+                  <option value="Iced">Iced coffee</option>
+                </optgroup>
+                <optgroup label="Expresso Drinks">
+                  <option value="Latte">Latte</option>
+                  
+                </optgroup>
+              
+          </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            What is your Favorite food
+        </legend>
+
+        <form>
+              <input type="radio" name="Tacos-Pizza-others">
+              <label >Tacos</label><br>
+              <input type="radio" name="Tacos-Pizza-others" >
+              <label >Pizza</label><br>
+              <input type="radio" name="Tacos-Pizza-others">
+              <label >Others</label>
+            </form> 
+            
+        </fieldset>
+
+        
+    <fieldset>
+        <legend>
+            Do you have pets?
+        </legend>
+        <form>
+            <input type="checkbox" id="pets" name="pet" value="dog">
+            <label for="pets"> DOG</label><br>
+            <input type="checkbox" id="pets" name="pets" value="Cat">
+            <label for="pets"> Cat</label><br>
+            <input type="checkbox" id="pets" name="pets" value="Fish">
+            <label for="pets"> Fish</label><br>
+            <input type="checkbox" id="pets" name="pets" value="otherw">
+            <label for="pets"> Others</label>
+          </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+               Send me a Note
+            </legend>
+            <legend>Your message</legend>
+            <textarea name="message" rows="10" cols="30">Type your message here
+                </textarea>
+            </fieldset><br>
+            <button type="button">Submit</button>
+            <button type="button">Post</button>
+            <button type="button">Reset</button>
+</body>
+</html>
